@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  
+}
+
+
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hours{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+.select{
+  width: 150px;
+  padding: 5px 10px;
+}
+
+.hoursinput{
+  padding: 5px;
+  width: 200px;
+}
+
+.submitbtn{
+  padding: 5px;
+  cursor: pointer;
+  background-color:darkolivegreen;
+  color: white;
+}
+.percentdiv{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+ 
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.container{
+  display: flex;
+  gap: 40px;
+  
+}
+.percentdiv input{
+  padding: 10px;
+  font-size: 15px;
+}
+
+.eachpersonshours{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 20px;
+}
